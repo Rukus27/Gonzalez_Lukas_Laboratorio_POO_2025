@@ -1,0 +1,17 @@
+Vehiculo (Super Clase)
+	privado:Marca, Modelo, VelocidadMaxima
+	Metodo: Mover()
+
+SubClases:
+
+Auto:
+	privado CantidadPuertas, TipoCombustible
+	Metodo: Para calcular el autonomia en KM a partir de litros de gasolina(TipoCombistible)
+
+Moto:
+	privado: Cilindrada, TieneBaul
+	Metodo: Que determine si puede llevar acopañante(Segun Cilindrada minima de 125cc) (._.?)
+
+Camion:
+	privado: CapacidadCarga, CcantidadEjes
+	Metodo: Calcular el peso total permitido a transportar, multiplicardo capacidad por ejes
